@@ -1,0 +1,115 @@
+.header{
+	text-align: center;
+	margin-bottom: 50px;
+}
+body{ 
+	background-color: grey;
+ }
+
+
+ h1 {
+ 	text-align: center;
+ }
+
+.Mission{
+	background-color: #f1f1f1;
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.A2{
+	align-content: center;
+	background-color: #f1f1f1;
+	margin-left: 200px; 
+	margin-right: 200px;
+}
+.h3{
+
+}
+
+footer{
+	background-color: #f1f1f1;
+	text-align: center;
+}
+img{
+	width: 20%; 
+	margin-left: 650px;
+	margin-top: 25px;
+	margin-bottom: 0px;
+	align-content: center;
+
+}
+
+.topnav {
+  background-color: #f1f1f1;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: red;
+  color: white;
+}
+
+.under {
+	background-color: #f1f1f1;
+	text-align: center;
+	clear: both;
+	margin-top: 30px; 
+	margin-left: 300px;
+	margin-right: 300px;
+	align-content: center;
+}
+.rightcolumn {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+	background-color: #f1f1f1;
+	margin-right: 800px;
+	margin-bottom: 20px;
+}
+
+.leftcolumn { 
+	float: left;
+	width: 25%;
+	background-color: #f1f1f1;
+	margin-bottom: 20px;
+	padding-left: 20px;
+}
+
+.latest {
+	
+}
+.HCBlogo {
+	min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    position: relative;
+
+	}
+
+@media screen and (max-width:800px) {
+  .left, .main, .right {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
